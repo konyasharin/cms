@@ -7,7 +7,9 @@ export const AppRoutes: FC = () => {
   return (
     <Routes>
       {ROUTES.map(route => {
-        return <Route element={route.element} path={route.path} />;
+        return (
+          <Route element={route.element} path={route.path} key={route.path} />
+        );
       })}
 
       <Route path={'*'} element={<div>not-found</div>} />
