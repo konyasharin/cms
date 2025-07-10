@@ -1,2 +1,2 @@
-export * from './useCssVar.ts';
-export * from './useNotFound.ts';
+export * from './useCssVar';
+export * from './useNotFound';

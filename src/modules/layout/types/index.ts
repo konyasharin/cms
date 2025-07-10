@@ -1,1 +1,1 @@
-export * from './NavbarItem.ts';
+export * from './NavbarItem';
