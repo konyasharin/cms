@@ -1,1 +1,1 @@
-export * from './CssVarName.ts';
+export * from './CssVarName';
