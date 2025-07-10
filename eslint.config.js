@@ -127,14 +127,6 @@ export default tseslint.config(
           format: ['camelCase', 'UPPER_CASE', 'PascalCase'],
         },
         {
-          selector: 'objectLiteralMethod',
-          format: ['camelCase', 'UPPER_CASE']
-        },
-        {
-          selector: 'objectLiteralProperty',
-          format: ['camelCase', 'UPPER_CASE']
-        },
-        {
           selector: 'typeMethod',
           format: ['camelCase']
         },

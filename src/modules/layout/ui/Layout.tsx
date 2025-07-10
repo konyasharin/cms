@@ -18,20 +18,20 @@ export const Layout: FC<LayoutProps> = props => {
   const layoutStore = useLayoutStore();
 
   return (
-    <div>
+    <div className="min-h-screen w-screen bg-gray-100">
       <Header />
       <Navbar />
       <div
         style={{
-          marginTop:
+          paddingTop:
             layoutStore.headerHeight +
               (layoutStore.headerHeight && HEADER_BOTTOM_SPACE) ||
             LAYOUT_BASE_SPACE,
-          marginLeft:
+          paddingLeft:
             layoutStore.navbarWidth +
               (layoutStore.navbarWidth && NAVBAR_RIGHT_SPACE) ||
             LAYOUT_BASE_SPACE,
-          marginRight: LAYOUT_BASE_SPACE,
+          paddingRight: LAYOUT_BASE_SPACE,
         }}
       >
         {props.children}

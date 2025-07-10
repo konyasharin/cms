@@ -13,7 +13,7 @@ export const Header: FC = () => {
     >
       <div
         className={
-          'flex justify-end items-center h-full gap-5 px-10 border-b border-gray-500 bg-white'
+          'flex justify-end items-center h-full gap-5 px-10 bg-white shadow'
         }
         style={{ marginLeft: navbarWidth }}
       >
