@@ -136,7 +136,7 @@ export default tseslint.config(
         },
         {
           selector: 'typeProperty',
-          format: ['camelCase']
+          format: ['camelCase', 'UPPER_CASE']
         }
       ],
       "lines-between-class-members": [

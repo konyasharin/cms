@@ -1,6 +1,6 @@
 import { ReactNode } from 'react';
 
-import { ROLES } from '@/modules';
+import { ROLES } from '@/modules/auth';
 
 export interface Route {
   path: string;

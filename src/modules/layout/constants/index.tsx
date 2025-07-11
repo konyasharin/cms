@@ -4,7 +4,7 @@ import { TbError404 } from 'react-icons/tb';
 
 import { NavbarItem } from '../types';
 
-import { APP_PATHS } from '@/shared';
+import { APP_PATHS } from '@/shared/constants';
 
 export const HEADER_HEIGHT = 80;
 export const HEADER_BOTTOM_SPACE = 15;
