@@ -1,1 +1,1 @@
-export * from './roles.ts';
+export * from './roles';
