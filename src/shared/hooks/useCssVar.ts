@@ -2,6 +2,8 @@ import { useEffect, useMemo } from 'react';
 
 import { CssVarName } from '../types';
 
+import { setCssVar } from '@/shared/utils';
+
 type UseCssVarParams = {
   name: CssVarName;
   root?: HTMLElement;
@@ -21,7 +23,7 @@ export const useCssVar = ({
 }: UseCssVarParams): CssVarControls => {
   const controls: CssVarControls = useMemo(
     () => ({
-      set: value => root.style.setProperty(name, value),
+      set: value => setCssVar(name, value, root),
       get: () => root.style.getPropertyValue(name),
       remove: () => root.style.removeProperty(name),
     }),
